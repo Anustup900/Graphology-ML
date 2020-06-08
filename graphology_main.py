@@ -27,8 +27,8 @@ if DEV:
 else:
   epochs = 20
 
-train_data_path = r"C:\Users\Anustup\Desktop\Projects\Graphology By ML\data\train"
-validation_data_path = r"C:\Users\Anustup\Desktop\Projects\Graphology By ML\data\validation"
+train_data_path = './data/train'
+validation_data_path = './data/validation'
 
 
 img_width, img_height = 150, 150
