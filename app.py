@@ -26,7 +26,7 @@ model = load_model(model_path)
 #model.load_weights(model_weights_path)
 
 UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = set(['jpg', 'jpeg'])
+ALLOWED_EXTENSIONS = set(['jpg', 'jfif'])
 
 def get_as_base64(url):
     return base64.b64encode(requests.get(url).content)
